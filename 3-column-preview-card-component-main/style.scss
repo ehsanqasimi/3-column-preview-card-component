@@ -1,0 +1,278 @@
+@import url('https://fonts.googleapis.com/css2?family=Lexend+Deca&display=swap');//font-family: 'Lexend Deca', sans-serif;
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@700&display=swap');//(font-family: 'Big Shoulders Display', cursive;)
+
+$Mobile: 375px;
+$Desktop: 1440px;
+$BrightOrange: hsl(31, 77%, 52%);
+$DarkCyan: hsl(184, 100%, 22%);
+$VeryDarkCyan: hsl(179, 100%, 13%);
+$Paragraph:hsla(0, 0%, 100%, 0.75);
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-size: 15px;
+    background-color: #f2f2f2;
+}
+.container{
+    width: 920px;
+    height: 500px;
+    position: absolute; 
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    .cards{
+        position: relative;
+        display: flex;
+        flex-direction: row;
+    }
+    .first{
+        width: 310px;
+        height: 498px;
+        background-color: $BrightOrange;
+        border-top-left-radius: 10px;
+        border-bottom-left-radius: 10px;
+        h1{
+            color: white;
+            font-family:'Big Shoulders Display';
+            font-size: 40px;
+            margin-left: 50px;
+            margin-top: 30px; 
+        }
+        .pr1{
+            color:$Paragraph;
+            font-family: 'Lexend Deca', sans-serif;
+            margin-left: 50px;
+            margin-top: 30px;
+            line-height: 25px;
+        }
+        .btn1{
+            border: 2px solid white;
+            background: none;
+            cursor: pointer;
+            margin-left: 50px;
+            margin-top: 40px;
+            padding: 15px 30px;
+
+            border-radius: 100px;
+
+        }
+        .btn1:hover{
+            background:white;
+            color:$BrightOrange;
+        }
+        
+    }
+//here the first card ends
+
+
+//here the second card starts
+    .second{
+        width: 310px;
+        height: 498px;
+        background-color: $DarkCyan;
+        .h1{
+            color: white;
+            font-family:'Big Shoulders Display';
+            font-size: 40px;
+            margin-left: 50px;
+            margin-top: 30px; 
+        }
+        .pr2{
+            color:$Paragraph;
+            font-family: 'Lexend Deca', sans-serif;
+            margin-left: 50px;
+            margin-top: 30px;
+            line-height: 25px;
+        }
+        .btn2{
+            border: 2px solid white;
+            background: none;
+            cursor: pointer;
+            margin-left: 50px;
+            margin-top: 40px;
+            padding: 15px 30px;
+
+            border-radius: 100px;
+
+        }
+        .btn2:hover{
+            background:white;
+            color:$DarkCyan;
+        }
+    }
+//here the second card ends
+
+
+//here the third card starts
+    .third{
+        position: relative;
+        width: 310px;
+        height: 498px;
+        background-color: $VeryDarkCyan;
+        border-top-right-radius: 10px;
+        border-bottom-right-radius: 10px;
+
+        #h1{
+            color: white;
+            font-family:'Big Shoulders Display';
+            font-size: 40px;
+            margin-left: 50px;
+            margin-top: 30px; 
+        }
+        .pr3{
+            color:$Paragraph;
+            font-family: 'Lexend Deca', sans-serif;
+            margin-left: 50px;
+            margin-top: 30px;
+            line-height: 25px;
+        }
+        .btn3{
+            border: 2px solid white;
+            background: none;
+            cursor: pointer;
+            margin-left: 50px;
+            margin-top: 40px;
+            padding: 15px 30px;
+
+            border-radius: 100px;
+
+        }
+        .btn3:hover{
+            background:white;
+            color:$VeryDarkCyan;
+        }
+ 
+    }
+}
+//here thee third card ends
+
+@media (max-width:375px) {
+
+    .container{
+        width: 330px;
+        height: 1330px;
+        position: absolute; 
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        .cards{
+            position: relative;
+            display: flex;
+            flex-direction: column;
+        }
+        .third{
+            position: relative;
+            width: 328px;
+            height: 443px;
+            background-color: $VeryDarkCyan;
+            border-bottom-left-radius: 10px;
+            border-bottom-right-radius: 10px;
+    
+            #h1{
+                color: white;
+                font-family:'Big Shoulders Display';
+                font-size: 40px;
+                margin-left: 50px;
+                margin-top: 30px; 
+            }
+            .pr3{
+                color:$Paragraph;
+                font-family: 'Lexend Deca', sans-serif;
+                margin-left: 50px;
+                margin-top: 30px;
+                line-height: 25px;
+            }
+            .btn3{
+                border: 2px solid white;
+                background: none;
+                cursor: pointer;
+                margin-left: 50px;
+                margin-top: 40px;
+                padding: 15px 30px;
+    
+                border-radius: 100px;
+    
+            }
+            .btn3:hover{
+                background:white;
+                color:$VeryDarkCyan;
+            }
+     
+        }
+        .second{
+            width: 328px;
+            height: 443px;
+            background-color: $DarkCyan;
+            .h1{
+                color: white;
+                font-family:'Big Shoulders Display';
+                font-size: 40px;
+                margin-left: 50px;
+                margin-top: 30px; 
+            }
+            .pr2{
+                color:$Paragraph;
+                font-family: 'Lexend Deca', sans-serif;
+                margin-left: 50px;
+                margin-top: 30px;
+                line-height: 25px;
+            }
+            .btn2{
+                border: 2px solid white;
+                background: none;
+                cursor: pointer;
+                margin-left: 50px;
+                margin-top: 40px;
+                padding: 15px 30px;
+    
+                border-radius: 100px;
+    
+            }
+            .btn2:hover{
+                background:white;
+                color:$DarkCyan;
+            }
+        }
+        .first{
+        width: 328px;
+        height: 443px;
+        background-color: $BrightOrange;
+        border-top-left-radius: 20px;
+        border-top-right-radius: 20px;
+            h1{
+                color: white;
+                font-family:'Big Shoulders Display';
+                font-size: 40px;
+                margin-left: 50px;
+                margin-top: 30px; 
+            }
+            .pr1{
+                color:$Paragraph;
+                font-family: 'Lexend Deca', sans-serif;
+                margin-left: 50px;
+                margin-top: 30px;
+                line-height: 25px;
+                width: 300px;
+            }
+            .btn1{
+                border: 2px solid white;
+                background: none;
+                cursor: pointer;
+                margin-left: 50px;
+                margin-top: 40px;
+                padding: 15px 30px;
+    
+                border-radius: 100px;
+    
+            }
+            .btn1:hover{
+                background:white;
+                color:$BrightOrange;
+            }
+
+        }
+    }
+}

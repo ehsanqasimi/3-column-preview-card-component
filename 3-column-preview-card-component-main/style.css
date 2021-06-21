@@ -1,0 +1,173 @@
+@import url("https://fonts.googleapis.com/css2?family=Lexend+Deca&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@700&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  font-size: 15px;
+  background-color: #f2f2f2;
+}
+
+.container {
+  width: 920px;
+  height: 500px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+}
+
+.container .cards {
+  position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+}
+
+.container .first {
+  width: 310px;
+  height: 498px;
+  background-color: #e38826;
+  border-top-left-radius: 10px;
+  border-bottom-left-radius: 10px;
+}
+
+.container .first h1 {
+  color: white;
+  font-family: 'Big Shoulders Display';
+  font-size: 40px;
+  margin-left: 50px;
+  margin-top: 30px;
+}
+
+.container .first .pr1 {
+  color: rgba(255, 255, 255, 0.75);
+  font-family: 'Lexend Deca', sans-serif;
+  margin-left: 50px;
+  margin-top: 30px;
+  line-height: 25px;
+}
+
+.container .first .btn1 {
+  border: 2px solid white;
+  background: none;
+  cursor: pointer;
+  margin-left: 50px;
+  margin-top: 40px;
+  padding: 15px 30px;
+  border-radius: 100px;
+}
+
+.container .first .btn1:hover {
+  background: white;
+  color: #e38826;
+}
+
+.container .second {
+  width: 310px;
+  height: 498px;
+  background-color: #006970;
+}
+
+.container .second .h1 {
+  color: white;
+  font-family: 'Big Shoulders Display';
+  font-size: 40px;
+  margin-left: 50px;
+  margin-top: 30px;
+}
+
+.container .second .pr2 {
+  color: rgba(255, 255, 255, 0.75);
+  font-family: 'Lexend Deca', sans-serif;
+  margin-left: 50px;
+  margin-top: 30px;
+  line-height: 25px;
+}
+
+.container .second .btn2 {
+  border: 2px solid white;
+  background: none;
+  cursor: pointer;
+  margin-left: 50px;
+  margin-top: 40px;
+  padding: 15px 30px;
+  border-radius: 100px;
+}
+
+.container .second .btn2:hover {
+  background: white;
+  color: #006970;
+}
+
+.container .third {
+  position: relative;
+  width: 310px;
+  height: 498px;
+  background-color: #004241;
+  border-top-right-radius: 10px;
+  border-bottom-right-radius: 10px;
+}
+
+.container .third #h1 {
+  color: white;
+  font-family: 'Big Shoulders Display';
+  font-size: 40px;
+  margin-left: 50px;
+  margin-top: 30px;
+}
+
+.container .third .pr3 {
+  color: rgba(255, 255, 255, 0.75);
+  font-family: 'Lexend Deca', sans-serif;
+  margin-left: 50px;
+  margin-top: 30px;
+  line-height: 25px;
+}
+
+.container .third .btn3 {
+  border: 2px solid white;
+  background: none;
+  cursor: pointer;
+  margin-left: 50px;
+  margin-top: 40px;
+  padding: 15px 30px;
+  border-radius: 100px;
+}
+
+.container .third .btn3:hover {
+  background: white;
+  color: #004241;
+}
+
+@media (max-width: 375px) {
+  .container {
+    width: 330px;
+    height: 1330px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+            transform: translate(-50%, -50%);
+  }
+  .container .cards {
+    position: relative;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+}
+/*# sourceMappingURL=style.css.map */
